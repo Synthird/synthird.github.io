@@ -23,9 +23,9 @@ a {
 }
 
 a:hover {
-    background: linear-gradient(#E5D28E, #E4cf82);
-    color: transparent;
-    background-clip: text;
+	background: linear-gradient(#E5D28E, #E4cf82);
+	color: transparent;
+	background-clip: text;
 }
 
 a:visited {
