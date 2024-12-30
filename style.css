@@ -2,7 +2,7 @@
 
 body {
 	background: #111111;
-	color: #77B6DF;
+	color: #76b8df;
 	text-align: center;
 	font-family: "Courier Prime";
 	font-size: 30px;
@@ -19,17 +19,18 @@ h2 {
 }
 
 a {
-	color: #77B6DF;
+	color: #76b8df;
 }
 
+/* a:hover code found in https://stackoverflow.com/questions/8384751/css-text-gradient */
 a:hover {
-	background: linear-gradient(#E5D28E, #E4cf82);
+	background: linear-gradient(#e1d48b, #e4cf82);
 	color: transparent;
 	background-clip: text;
 }
 
 a:visited {
-	color: #EA70F6;
+	color: #ea71f6;
 }
 
 ::selection {
