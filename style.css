@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+	font-family: "Courier Prime Code";
+	src: url(Courier\ Prime\ Code.ttf);
+}
 
 :root {
 	--background-colour: #111111;
@@ -12,7 +15,7 @@ body {
 	background: var(--background-colour);
 	color: var(--text-colour);
 	text-align: center;
-	font-family: "Courier Prime";
+	font-family: "Courier Prime Code";
 	font-size: 30px;
 }
 
