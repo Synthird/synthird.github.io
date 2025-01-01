@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+:root {
+	--background-colour: #111111;
+	--gradient: linear-gradient(#e1d48b, #e4cf82);
+	--text-colour: #76b8df;
+	--visited-link-colour: #ea71f6;
+	--heading-font-weight: 500;
+}
+
 body {
-	background: #111111;
-	color: #76b8df;
+	background: var(--background-colour);
+	color: var(--text-colour);
 	text-align: center;
 	font-family: "Courier Prime";
 	font-size: 30px;
@@ -10,30 +18,30 @@ body {
 
 h1 {
 	text-decoration: none;
-	font-weight: 500;
+	font-weight: var(--heading-font-weight);
 	font-size: 50px;
 }
 
 h2 {
-	font-weight: 500;
+	font-weight: var(--heading-font-weight);
 }
 
 a {
-	color: #76b8df;
+	color: var(--text-colour);
 }
 
 /* a:hover code found in https://stackoverflow.com/questions/8384751/css-text-gradient */
 a:hover {
-	background: linear-gradient(#e1d48b, #e4cf82);
+	background: var(--gradient);
 	color: transparent;
 	background-clip: text;
 }
 
 a:visited {
-	color: #ea71f6;
+	color: var(--visited-link-colour);
 }
 
 ::selection {
-	color: #111111;
-	background: #77B6DF;
+	color: var(--background-colour);
+	background: var(--text-colour);
 }
