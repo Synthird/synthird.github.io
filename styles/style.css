@@ -11,25 +11,27 @@
 	--heading-font-weight: 500;
 }
 
+/* Modifying multiple elements */
+
+body, a {
+	color: var(--text-colour);
+}
+
+h1, h2 {
+	font-weight: var(--heading-font-weight);
+}
+
+/* Modifying individual elements*/
+
 body {
 	background: var(--background-colour);
-	color: var(--text-colour);
 	text-align: center;
 	font-family: "Courier Prime Code";
 	font-size: 30px;
 }
 
 h1 {
-	font-weight: var(--heading-font-weight);
 	font-size: 50px;
-}
-
-h2 {
-	font-weight: var(--heading-font-weight);
-}
-
-a {
-	color: var(--text-colour);
 }
 
 /* a:hover code found in https://stackoverflow.com/questions/8384751/css-text-gradient */
