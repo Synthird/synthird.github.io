@@ -11,6 +11,11 @@
 	--heading-font-weight: 500;
 }
 
+::selection {
+	color: var(--background-colour);
+	background: var(--text-colour);
+}
+
 /* Modifying multiple elements */
 
 body, a {
@@ -43,9 +48,4 @@ a:hover {
 
 a:visited {
 	color: var(--visited-link-colour);
-}
-
-::selection {
-	color: var(--background-colour);
-	background: var(--text-colour);
 }
