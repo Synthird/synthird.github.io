@@ -35,8 +35,16 @@ body {
 	font-size: 2.18rem;
 }
 
-p {
-	line-height: 0.8em;
+.projects, .socials {
+	line-height: 1.2em;
+}
+
+.projects p {
+	line-height: 0.7em;
+}
+
+.socials p {
+	line-height: 1.6;
 }
 
 /* a:hover code found in https://stackoverflow.com/questions/8384751/css-text-gradient */
