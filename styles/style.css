@@ -26,6 +26,10 @@ h1, h2 {
 	font-weight: var(--heading-font-weight);
 }
 
+.projects, .socials {
+	line-height: 1.2em;
+}
+
 /* Modifying individual elements*/
 
 body {
@@ -33,18 +37,6 @@ body {
 	text-align: center;
 	font-family: "Courier Prime Code";
 	font-size: 2.18rem;
-}
-
-.projects, .socials {
-	line-height: 1.2em;
-}
-
-.projects p {
-	line-height: 0.7em;
-}
-
-.socials p {
-	line-height: 1.6;
 }
 
 /* a:hover code found in https://stackoverflow.com/questions/8384751/css-text-gradient */
@@ -56,4 +48,12 @@ a:hover {
 
 a:visited {
 	color: var(--visited-link-colour);
+}
+
+.projects p {
+	line-height: 0.7em;
+}
+
+.socials p {
+	line-height: 1.6;
 }
