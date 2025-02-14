@@ -26,8 +26,8 @@ h1, h2 {
 	font-weight: var(--heading-font-weight);
 }
 
-.projects, .socials {
-	line-height: 1em;
+div {
+	line-height: 0.3em;
 }
 
 /* Modifying individual elements*/
