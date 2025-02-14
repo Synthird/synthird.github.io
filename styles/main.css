@@ -39,12 +39,15 @@ body {
 	font-size: 2.18rem;
 }
 
-.projects p {
-	line-height: 0.85em;
+ul {
+	padding: 0;
+	margin: 0;
+	line-height: 1.6;
+	list-style-type: none;
 }
 
-.socials p {
-	line-height: 1.6;
+.socials li {
+	display: inline;
 }
 
 /* a:hover code found in https://stackoverflow.com/questions/8384751/css-text-gradient */
