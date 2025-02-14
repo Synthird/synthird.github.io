@@ -39,6 +39,14 @@ body {
 	font-size: 2.18rem;
 }
 
+.projects p {
+	line-height: 0.85em;
+}
+
+.socials p {
+	line-height: 1.6;
+}
+
 /* a:hover code found in https://stackoverflow.com/questions/8384751/css-text-gradient */
 a:hover {
 	background: var(--gradient);
@@ -48,12 +56,4 @@ a:hover {
 
 a:visited {
 	color: var(--visited-link-colour);
-}
-
-.projects p {
-	line-height: 0.85em;
-}
-
-.socials p {
-	line-height: 1.6;
 }
