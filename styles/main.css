@@ -24,7 +24,7 @@ body, a {
 
 h1, h2 {
 	font-weight: var(--heading-font-weight);
-	margin: 0.5em auto;
+	margin: 0.6em 0;
 }
 
 /* Modifying individual elements*/
