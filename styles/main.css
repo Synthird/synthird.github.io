@@ -51,7 +51,7 @@ ul {
 	display: inline;
 }
 
-/* a:hover code found in https://stackoverflow.com/questions/8384751/css-text-gradient */
+/* a:hover, a:focus-visible code found in https://stackoverflow.com/questions/8384751/css-text-gradient */
 a:hover, a:focus-visible {
 	background: var(--gradient);
 	color: transparent;
