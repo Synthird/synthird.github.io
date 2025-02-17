@@ -52,7 +52,7 @@ ul {
 }
 
 /* a:hover code found in https://stackoverflow.com/questions/8384751/css-text-gradient */
-a:hover {
+a:hover, :focus-visible {
 	background: var(--gradient);
 	color: transparent;
 	background-clip: text;
