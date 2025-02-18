@@ -58,6 +58,12 @@ a:hover, a:focus-visible {
 	background-clip: text;
 }
 
+:focus-visible {
+	outline: 2px solid var(--visited-link-colour);
+	padding: 0.1em;
+	border-radius: 0.05em;
+}
+
 a:visited {
 	color: var(--visited-link-colour);
 }
