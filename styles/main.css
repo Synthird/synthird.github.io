@@ -5,7 +5,8 @@
 
 :root {
 	--background-colour: #111111;
-	--gradient: linear-gradient(#e1d48b, #e4cf82);
+	--bright-yellow: #e1d48b;
+	--gradient: linear-gradient(var(--bright-yellow), #e4cf82);
 	--text-colour: #76b8df;
 	--visited-link-colour: #ea71f6;
 	--heading-font-weight: 500;
@@ -59,7 +60,7 @@ a:hover, a:focus-visible {
 }
 
 :focus-visible {
-	outline: 2px solid var(--visited-link-colour);
+	outline: 2px solid var(--bright-yellow);
 	padding: 0.1em;
 	border-radius: 0.05em;
 }
