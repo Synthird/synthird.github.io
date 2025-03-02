@@ -9,7 +9,6 @@
 	--gradient: linear-gradient(var(--border-colour), #e4cf82);
 	--text-colour: #76b8df;
 	--visited-link-colour: #ea71f6;
-	--heading-font-weight: 500;
 }
 
 ::selection {
@@ -24,7 +23,7 @@ body, a {
 }
 
 h1, h2 {
-	font-weight: var(--heading-font-weight);
+	font-weight: 500;
 	margin: 0.6em 0;
 }
 
