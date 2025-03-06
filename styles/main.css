@@ -6,7 +6,7 @@
 :root {
 	--background-colour: #111111;
 	--border-colour: #e1d48b;
-	--gradient: linear-gradient(180deg, #e4cf82, var(--border-colour));
+	--gradient: linear-gradient(var(--border-colour), #e4cf82);
 	--text-colour: #76b8df;
 	--visited-link-colour: #ea71f6;
 }
