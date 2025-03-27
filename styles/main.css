@@ -16,7 +16,7 @@
 	background: var(--text-colour);
 }
 
-/* Modifying multiple elements */
+/* Multiple selectors */
 
 body, a {
 	color: var(--text-colour);
@@ -27,7 +27,7 @@ h1, h2 {
 	margin: 0.6em 0;
 }
 
-/* Modifying individual elements*/
+/* Individual selectors */
 
 body {
 	background: var(--background-colour);
