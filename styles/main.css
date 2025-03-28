@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "Courier Prime Code";
-	src: url(../CourierPrimeCode.ttf);
+	src: url(/CourierPrimeCode.ttf);
 }
 
 :root {
