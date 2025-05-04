@@ -4,10 +4,8 @@
 }
 
 :root {
-	--background-colour: #111111;
 	--gradient: linear-gradient(#e1d48b, #e4cf82);
 	--text-colour: #76b8df;
-	--visited-link-colour: #ea71f6;
 }
 
 ::selection {
@@ -29,7 +27,7 @@ h1, h2 {
 /* Individual selectors */
 
 body {
-	background: var(--background-colour);
+	background: #0a0a0a;
 	text-align: center;
 	font-family: "Courier Prime Code";
 	font-size: 2.18rem;
@@ -47,7 +45,7 @@ a:hover, a:focus-visible {
 }
 
 a:visited {
-	color: var(--visited-link-colour);
+	color: #ea71f6;
 }
 
 :focus-visible {
