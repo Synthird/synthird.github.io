@@ -43,6 +43,10 @@ div {
 	line-height: 0.65em;
 }
 
+summary {
+	cursor: pointer;
+}
+
 /* a:hover, a:focus-visible code found in https://stackoverflow.com/questions/8384751/css-text-gradient */
 a:hover, a:focus-visible {
 	background: linear-gradient(#e1d48b, #e4cf82);
