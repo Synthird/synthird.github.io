@@ -5,6 +5,6 @@ ul {
 	list-style-type: none;
 }
 
-.social-media li {
+.social-media li, nav li {
 	display: inline;
 }
