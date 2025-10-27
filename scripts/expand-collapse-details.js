@@ -8,10 +8,5 @@ function toggleDetails(opened) {
 	}
 }
 
-expandAll.addEventListener("click", () => {
-	toggleDetails(true);
-});
-
-colapseAll.addEventListener("click", () => {
-	toggleDetails(false);
-});
+expandAll.addEventListener("click", () => toggleDetails(true));
+colapseAll.addEventListener("click", () => toggleDetails(false));
