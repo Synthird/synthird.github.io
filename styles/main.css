@@ -71,7 +71,7 @@ button {
 	border: 2px solid var(--text-colour);
 	color: var(--text-colour);
 	margin: 0.14em auto;
-	padding: 0.13em;
+	padding: 0.15em;
 	border-radius: 0.1em;
 	cursor: pointer;
 }
