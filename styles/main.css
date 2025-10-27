@@ -70,7 +70,8 @@ button {
 	background-color: transparent;
 	border: 2px solid var(--text-colour);
 	color: var(--text-colour);
-	margin: 0.95% auto;
+	margin: 0.14em auto;
+	padding: 0.13em;
 	border-radius: 0.1em;
 	cursor: pointer;
 }
