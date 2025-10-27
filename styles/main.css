@@ -24,6 +24,11 @@ body, a {
 	color: var(--text-colour);
 }
 
+body, button {
+	font-family: "Courier Prime Code";
+	font-size: 2.41rem;
+}
+
 h1, h2 {
 	font-weight: 500;
 }
@@ -36,8 +41,6 @@ h1, h2 {
 
 body {
 	background: var(--background-colour);
-	font-family: "Courier Prime Code";
-	font-size: 2.41rem;
 }
 
 header {
@@ -61,6 +64,20 @@ h2 {
 
 div {
 	line-height: 1.3em;
+}
+
+button {
+	background-color: transparent;
+	border: 2px solid var(--text-colour);
+	color: var(--text-colour);
+	margin: 0.95% auto;
+	border-radius: 0.1em;
+	cursor: pointer;
+}
+
+button:hover, button:focus-visible {
+	background-color: var(--text-colour);
+	color: var(--background-colour);
 }
 
 summary {
