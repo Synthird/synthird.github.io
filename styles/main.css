@@ -33,6 +33,10 @@ h1, h2 {
 	font-weight: 500;
 }
 
+button, summary {
+	cursor: pointer;
+}
+
 .social-media li, nav li {
 	display: inline;
 }
@@ -79,10 +83,6 @@ button {
 button:hover, button:focus-visible {
 	background-color: var(--text-colour);
 	color: var(--background-colour);
-}
-
-summary {
-	cursor: pointer;
 }
 
 /* Text gradient code found in https://stackoverflow.com/questions/8384751/css-text-gradient */
