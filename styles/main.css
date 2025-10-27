@@ -77,7 +77,6 @@ button {
 	margin: 0.14em auto;
 	padding: 0.15em;
 	border-radius: 0.1em;
-	cursor: pointer;
 }
 
 button:hover, button:focus-visible {
