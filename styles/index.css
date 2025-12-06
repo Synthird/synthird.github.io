@@ -4,3 +4,12 @@ ul {
 	line-height: 1.6;
 	list-style-type: none;
 }
+
+footer {
+	background-color: var(--background-colour);
+	text-align: center;
+	font-size: small;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
