@@ -5,11 +5,6 @@ ul {
 	list-style-type: none;
 }
 
-footer {
-	background-color: var(--background-colour);
-	text-align: center;
+.timezone {
 	font-size: small;
-	position: fixed;
-	bottom: -0.5%;
-	width: 100%;
 }
