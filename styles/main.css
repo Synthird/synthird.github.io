@@ -84,6 +84,7 @@ a:hover, a:focus-visible {
 	background: linear-gradient(#e1d48b, #e4cf82);
 	color: transparent;
 	background-clip: text;
+	text-decoration: none;
 }
 
 a:visited {
