@@ -64,6 +64,10 @@ div {
 	line-height: 1.3em;
 }
 
+li {
+	line-height: 1.6;
+}
+
 button {
 	background-color: transparent;
 	border: 2px solid var(--text-colour);
