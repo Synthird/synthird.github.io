@@ -1,5 +1,4 @@
-const expandAll = document.getElementById("expand-all"),
-	colapseAll = document.getElementById("collapse-all"),
+const expandCollapseAll = document.getElementById("expand-collpase-all"),
 	details = document.getElementsByTagName("details");
 
 function toggleDetails(opened) {
@@ -8,5 +7,12 @@ function toggleDetails(opened) {
 	}
 }
 
-expandAll.addEventListener("click", () => toggleDetails(true));
-colapseAll.addEventListener("click", () => toggleDetails(false));
+expandCollapseAll.addEventListener("click", event => {
+	const buttonText = event.target.textContent;
+
+	if (buttonText === "Expand all") {
+		toggleDetails(true);
+	} else if (buttonText === "Collapse all") {
+		toggleDetails(false);
+	}
+});
