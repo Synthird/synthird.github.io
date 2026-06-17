@@ -89,3 +89,8 @@ a:hover, a:focus-visible {
 a:visited {
 	color: #ea71f6;
 }
+
+/* Hide specific elements if JavaScript is disabled */
+[id="expand-collpase-all"] {
+	display: none;
+}
