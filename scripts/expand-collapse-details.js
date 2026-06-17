@@ -1,6 +1,8 @@
 const expandCollapseAll = document.getElementById("expand-collpase-all"),
 	details = document.getElementsByTagName("details");
 
+expandCollapseAll.style.display = "block";
+
 function toggleDetails(opened) {
 	for (const detail of details) {
 		detail.open = opened;
